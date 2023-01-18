@@ -30,6 +30,7 @@ const loadUserData = (data) => {
                 <p class="p-content m-0">${el.rating}</p>
               </div>
             </div>
+            <br/>
             <div class="d-flex justify-content-between align-content-center my-1">
               <div class="d-flex justify-content-center align-items-center gap-2">
                 <i class="fa-solid fa-location-dot" style="color: #666"></i>
