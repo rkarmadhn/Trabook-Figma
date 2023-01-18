@@ -33,6 +33,4 @@ const loadUserDataBlog = (blogs) => {
       .join("");
       rowBlog.innerHTML = outputBlog;
     };
-    console.log(rowBlog.length);
-
 loadDataBlog();

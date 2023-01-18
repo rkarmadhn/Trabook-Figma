@@ -101,11 +101,10 @@
     width: 40px;
     height: 40px;
     padding: 0;
-    display: block;
     justify-content: center;
     align-items: center;
-    text-align: center;
-  }
+    transition: .5s;
+    }
   .btn i {
     font-size: 14px;
     color: #fff;
@@ -119,7 +118,13 @@
     display: none;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    transition: .5s;
+  }
+  .hideBtn{
+    display: none;
+  }
+  .showBtn{
+    display: block;
   }
   nav {
     background-color: #fff;
@@ -144,6 +149,13 @@
     background-color: #fff;
     width: 100vw;
     height: 100vh;
+    transition: .5s;
+  }
+  nav .container .hideNav{
+    left: -100%;
+  }
+  nav .container .showNav{
+    left: 0;
   }
   nav .container .nav-link {
     margin: 25px 0;
