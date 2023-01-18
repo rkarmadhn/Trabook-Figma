@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "location": "Rome, Italy",
+    "day": "10",
+    "price": 9.21,
+    "image": "https://cdn.pixabay.com/photo/2019/10/06/08/57/tiber-river-4529605_960_720.jpg",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "location": "London, UK",
+    "day": "32",
+    "price": 4.42,
+    "image": "https://cdn.pixabay.com/photo/2014/11/13/23/34/palace-530055_960_720.jpg",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "location": "Osaka, Japan",
+    "day": "63",
+    "price": 12.42,
+    "image": "https://cdn.pixabay.com/photo/2020/09/14/22/27/river-5572289_960_720.jpg",
+    "rating": 4.8
+  }
+]
