@@ -23,7 +23,7 @@ const loadUserData = (data) => {
         <div class="card">
           <img src="${el.image}" alt="" class="image-card"/>
           <div class="card-body">
-            <div class="d-flex justify-content-between align-items-center my-1">
+            <div class="d-flex justify-content-between align-items-center my-2">
               <h5 class="m-0">${el.city}</h5>
               <div class="d-flex justify-content-center align-items-center gap-1">
                 <i class="fa-solid fa-star" style="color: #ffc107"></i>
@@ -31,10 +31,10 @@ const loadUserData = (data) => {
               </div>
             </div>
             <br/>
-            <div class="d-flex justify-content-between align-content-center my-1">
+            <div class="d-flex justify-content-between align-content-center my-2">
               <div class="d-flex justify-content-center align-items-center gap-2">
                 <i class="fa-solid fa-location-dot" style="color: #666"></i>
-                <p class="p-mini-content m-0">${el.country}</p>
+                <p class="p-content m-0">${el.country}</p>
               </div>
               <div class="d-flex justify-content-center align-items-center gap-2">
                 <p class="p-content text-decoration-line-through m-0">$${el.price}</p>
